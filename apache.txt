@@ -1,0 +1,25 @@
+#Notes;  
+
+
+TO  host  a website in lInux  AMI 
+
+
+step 1 : login with  test user with password  Redhat@123
+
+step  2 :  Install httpd  
+
+	   sudo yum  install   httpd 
+
+
+step  3:  create html page 
+
+	cd /var/www/html
+	sudo -s
+	echo   "hello world"   >me.html 
+
+
+step  4 :   start  service   of  httpd  
+	
+         service   httpd   start  |   restart  
+
+

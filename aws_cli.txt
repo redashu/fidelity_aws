@@ -1,0 +1,22 @@
+#  to  get avzone
+
+aws ec2  describe-availability-zones
+
+#   to get instances status 
+
+aws ec2  describe-instance-status
+
+#  get keys 
+
+aws ec2  describe-key-pairs
+
+
+#  get security groups
+
+aws ec2  describe-security-groups
+
+#  launch instances
+
+ aws ec2 run-instances --image-id ami-0ad42f4f66f6c1cc9  --count 1 --instance-type t2.micro --key-name ashutoshh --security-group-ids sg-06d970b71d141b1cb  --subnet-id  subnet-395f9350
+
+

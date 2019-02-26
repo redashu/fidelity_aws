@@ -1,0 +1,9 @@
+  2  yum   install   httpd  
+    3  rpm  -q  httpd
+    4  yum   install   php    httpd   -y
+    5  rpm  -q  httpd  php
+    6  cd   /var/www/html/
+    7  git  clone  https://github.com/redashu/fidelity_aws
+    8  yum   install   git  
+    9  git  clone  https://github.com/redashu/fidelity_aws
+
